@@ -1,0 +1,88 @@
+@import '../../style/variable';
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+.login-checkbox {
+  span {
+    font-family: var(--primary-font-family-medium);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $neutral-3;
+  }
+  .ant-checkbox-inner {
+    border-radius: 5px;
+  }
+}
+.prefix-style {
+  margin: 0 16px;
+}
+.login-form {
+  max-width: 770px;
+  width: 100%;
+  .ant-input-prefix {
+    margin-right: 14px;
+    margin-left: 6px;
+  }
+}
+.auth-button {
+  height: 56px;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #1e7cba;
+  border-right-width: 1px;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper:hover {
+  border-color: #1e7cba;
+  border-right-width: 1px;
+}
+
+.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 14.4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  transition: all 0.3s;
+  display: inline-flex;
+}
+
+.ant-btn {
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    height: 44px;
+    padding: 8.4px 15px;
+    border-radius: 8px;
+    min-width: 100px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-color: none;
+}
